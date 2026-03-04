@@ -136,39 +136,28 @@ Un equipo de desarrolladores debe ponerse de acuerdo sobre un único estilo de f
 - A menos que existan especificaciones y algún tipo de control de revisión, la función no puede ser conocida por los programadores que podrían hacer uso de ella.
 - Cualquier nueva característica impone restricciones en lo que se puede hacer en el futuro, por lo que una característica innecesaria puede interrumpir características necesarias que se agreguen en el futuro.
 
-## Justificaciones
+### Justificaciones
 
 |Categoría||Justificación||
 |-|-|-|-|
 |**Nombrado**|Ejemplo +|
-||Ejemplo +|
 ||Ejemplo -||PR corrección
 ||Ejemplo -||PR corrección
 |**Comentarios**|Ejemplo +|
-||Ejemplo +|
 ||Ejemplo -||PR corrección
 ||Ejemplo -||PR corrección
 |**Formato**|Ejemplo +|
-||Ejemplo +|
 ||Ejemplo -||PR corrección
 ||Ejemplo -||PR corrección
 |**Estándares**|Ejemplo +|
-||Ejemplo +|
 ||Ejemplo -||PR corrección
 ||Ejemplo -||PR corrección
 |**Consistencia**|Ejemplo +|
-||Ejemplo +|
 ||Ejemplo -||PR corrección
 ||Ejemplo -||PR corrección
 |**Código muerto**|Ejemplo +|
-||Ejemplo +|
-||Ejemplo -||PR corrección
 ||Ejemplo -||PR corrección
 |**DRY**|Ejemplo +|
-||Ejemplo +|
-||Ejemplo -||PR corrección
 ||Ejemplo -||PR corrección
 |**YAGNI**|Ejemplo +|
-||Ejemplo +|
-||Ejemplo -||PR corrección
 ||Ejemplo -||PR corrección
