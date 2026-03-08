@@ -7,7 +7,7 @@
 ||Ejemplo -|Nombre desinformativo / Palabra vacía: La variable actual viola el principio de "Revelar la intención". Es un nombre genérico que no describe el contenido semántico del dato, sino simplemente su estado temporal.|https://github.com/alejandroateca/24-25-EDA1/pull/1
 |**Comentarios**|Ejemplo +| Código autoexplicativo (Ausencia de comentarios): En la clase NumeroFaltante, no hay comentarios explicando la lógica matemática. Al utilizar nombres de variables precisos como sumaEsperada y sumaActual, el código revela su intención por sí solo.|https://github.com/alejandroateca/24-25-EDA2/blob/7db6c4987afaaae2cd15d8e53dc2ab6c02a9c7f2/entregas/atecaAlejandro/reto-002/src/nivel-01/NumeroFaltante.java#L4-L5|
 ||Ejemplo -|Comentario redundante: El texto se limita a parafrasear literalmente lo que el código ya expresa.|https://github.com/alejandroateca/24-25-EDA1/pull/2
-||Ejemplo -||PR corrección
+||Ejemplo -|Comentario redundante: El comentario actúa como un subtítulo innecesario. En el lenguaje de PlantUML, la sintaxis --> y : ya define que el bloque trata sobre relaciones entre clases.|https://github.com/alejandroateca/25-26-IDSW1/pull/1
 |**Formato**|Ejemplo +| Uso limpio del operador ternario: En Display, la instrucción frameActual = (frameActual == 1) ? 2 : 1; es un uso perfecto del operador ternario. A diferencia de las anidaciones complejas, aquí expresa un simple "interruptor" |https://github.com/alejandroateca/24-25-EDA2/blob/ced6c1638e4720338f7e077eed51d73dcfc022e1/entregas/atecaAlejandro/reto-000/src/Display.java#L13|
 ||Ejemplo -| El formateo de la variable windowState mediante un operador ternario anidado rompe el principio de comunicación y jerarquía. El código debe leerse como prosa; al comprimir cuatro estados lógicos en una sola línea densa, se sacrifica la claridad por la brevedad.|https://github.com/alejandroateca/23-24-prg1/pull/2
 ||Ejemplo -| Violación de Densidad Vertical y Afinidad: Los saltos de línea aleatorios entre casos destruían la agrupación visual.|https://github.com/alejandroateca/24-25-EDA1/pull/2
@@ -23,7 +23,3 @@
 ||Ejemplo -|Al repetir siete bloques idénticos de lógica (impresión, captura y acumulación). Esto genera fragilidad: cualquier cambio en la interfaz de usuario o en el flujo de entrada requiere modificaciones múltiples. El efecto en la mantenibilidad es un aumento innecesario del esfuerzo de actualización y del riesgo de introducir errores al hacer las repeticiones.|https://github.com/alejandroateca/23-24-prg1/pull/1
 |**YAGNI**|Ejemplo +| Diseño de buffers minimalista: La clase Display implementa un sistema de doble buffer estricto. Proporciona solo los métodos necesarios para intercambiar frames y renderizar, sin sobre-ingeniería. |https://github.com/alejandroateca/24-25-EDA2/blob/ced6c1638e4720338f7e077eed51d73dcfc022e1/entregas/atecaAlejandro/reto-000/src/Display.java#L6-L10|
 ||Ejemplo -| Se implementó el método previendo que sería útil, pero la clase cliente (SistemaReproduccion) jamás lo invoca; gestiona los estados vacíos comprobando devoluciones null o usando size().|https://github.com/alejandroateca/24-25-EDA1/pull/2
-
-
-
-
